@@ -1,12 +1,12 @@
 {
     "name": "sciantman/tools-dd",
-    "description": "Custom package for dd() function with Sciantman namespace",
+    "description": "Custom package for dd() function with Sciantman master  library",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your@email.com"
+            "name": "Anan Paenthongkham",
+            "email": "hs1gab@gmail.com"
         }
     ],
     "autoload": {
