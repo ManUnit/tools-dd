@@ -4,9 +4,11 @@ namespace Sciantman\Tools;
 
 use Symfony\Component\VarDumper\VarDumper;
 
-function dd($data)
+function dd(...$vars)
 {
-    VarDumper::dump($data);
+    foreach ($vars as $var) {
+        VarDumper::dump($var);
+    }
+
     exit(1);
 }
-
